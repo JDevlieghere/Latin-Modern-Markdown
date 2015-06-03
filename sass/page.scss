@@ -1,13 +1,19 @@
+@import "_reset.scss" ;
+
 $page-margin: 1.5em;
-$page-padding: 3cm;
 $page-width: 21cm;
 $page-heigth: 29.7cm;
+
+$top: 2cm;
+$bottom: 2cm;
+$left: 3cm;
+$right: 3cm;
 
 body {
     margin: $page-margin auto;
     width: $page-width;
-    height: $page-heigth;
+    min-height: $page-heigth;
     box-sizing: border-box;
-    padding: $page-padding;
+    padding: $top $right $bottom $left;
     box-shadow: 0 0 20px #ccc
 }
