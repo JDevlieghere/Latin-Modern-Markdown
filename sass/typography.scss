@@ -1,0 +1,40 @@
+@import "_fonts.scss" ;
+
+body {     
+    font-family: 'Latin Modern Roman', serif;
+    font-size: 14pt;
+    line-height: 1.48em;
+    text-align: justify;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+
+p{
+    margin-bottom: 1.5em;
+}
+
+quote{
+    margin-bottom: 1.5em;
+    font-size: 2em;
+    font-style: italic;
+    position: absolute;
+}
+
+quote:before, quote:after{
+    content: '“';
+    display: block;
+    font-size: 2em;
+    position: absolute;
+    left: -60px;
+    top: 0px;
+    color: #eee;
+}
+
+quote:after{
+    right: -60px;
+    bottom: 0px;
+}

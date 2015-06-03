@@ -7,4 +7,5 @@ ehthumbs.db
 Thumbs.db
 *.css.map
 .sass-cache
-scss/*.css
+css/*.css
+node_modules

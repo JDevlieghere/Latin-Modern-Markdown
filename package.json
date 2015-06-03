@@ -1,0 +1,14 @@
+{
+  "name": "Latin-Modern-Markdown",
+  "version": "1.0.0",
+  "description": "Typographically pleasing markdown stylesheet",
+  "author": "Jonas Devlieghere, Stefan Pante",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JDevlieghere/Latin-Modern-Markdown"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.1"
+  }
+}
